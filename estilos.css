@@ -1,0 +1,220 @@
+.containerHead{
+display: flex;
+justify-content: flex-end;
+}
+
+.containerBody{
+display: flex;
+flex-direction: column;
+align-items: center
+}
+
+.containerAdvanced{
+display: flex;
+flex-direction: column;
+}
+
+.central{
+display: flex;
+flex-direction: column;
+align-items: center
+}
+
+.direc {
+height: 100%;
+margin-top: auto;
+position: relative
+}
+
+.nomeImg {
+color: #4285f4;
+font: 16px/16px roboto-regular, arial, sans-serif;
+position: absolute;
+left: 215px;
+bottom: 0
+}
+
+.nomeBra {
+color: #ffd700;
+font: 16px/16px roboto-regular, arial, sans-serif;
+position: absolute;
+left: 215px;
+bottom: 0
+}
+
+.btnPesquisar{
+display: flex;
+flex-direction: column;
+align-items: center;
+padding-top: 50px
+}
+
+.espaco {
+font-size: 15px;
+color:#ffff
+}
+
+.areatexto {
+resize: none;
+border: none;
+outline: none;
+display: flex;
+font-family: arial,sans-serif;
+font-size: 16px;
+padding-left: 10px;
+padding-right: 10px;
+width: 450px;
+}
+
+.Bordas {
+display: flex;
+background: #fff;
+border: 1px solid #dfdfe5;
+border-radius: 24px;
+width: 550px;
+height: 45px;
+}
+
+.Lupa {
+display: flex;
+padding: 8px 8px 8px 14px;
+flex-wrap: wrap;
+flex: 1;
+margin-top: 6px
+}
+
+.onde {
+display: flex;
+}
+
+.BotaoPesquisar {
+padding-top: 18px;
+height: 70px;
+background-color: #f8f9fa;
+border: 1px solid #f8f9fa;
+border-radius: 4px;
+color: #3c4043;
+font-family: arial,sans-serif;
+font-size: 14px;
+margin: 11px 4px;
+padding: 0 16px;
+line-height: 27px;
+height: 36px;
+min-width: 54px;
+text-align: center;
+cursor: pointer;
+}
+
+.lupaAzul{
+background: #fff;
+border: 0 solid #dfdfe5;
+}
+
+.pesq{
+color: #D93025;
+font: 20px arial,sans-serif,bold;
+margin: 25px 35px;
+}
+
+.linha{
+border-bottom: 1px solid #ebebeb;
+padding-bottom: 10px;
+}
+
+.caixas{
+font:15px arial,sans-serif,bold;
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+
+.novoespaco{
+padding: 15px 15px 15px 15px;
+}
+.tresColunas{
+display: flex;
+flex-direction: column;
+align-items: left;
+}
+
+.coluna0{
+padding-left: 40px;
+width: 250px;
+height:50px;
+font-size: 16px;
+}
+.coluna1{
+padding-left: 40px;
+width: 250px;
+height:50px;
+font-size: 13px;
+}
+
+.coluna2{
+width: 500px;
+height:50px;
+}
+
+.coluna3{
+padding-left: 40px;
+width: 450px;
+height:50px;
+}
+
+.coluna4 {
+font-size: 13px;
+font-weight: 700;
+color: #777;
+}
+
+.escritas{
+font:11px arial,sans-serif,bold;
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+
+.barraEscrita{
+border-radius: 1px;
+border: 1px solid #d9d9d9;
+border-top: 1px solid #c0c0c0;
+font-size: 13px;
+height: 25px;
+padding: 1px 8px;
+width: 500px;
+}
+
+.barraEscrita:focus {
+-webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.3);
+-moz-box-shadow: inset 0 1px 2px rgba(0,0,0,.3);
+box-shadow: inset 0 1px 2px rgba(0,0,0,.3);
+border: 1px solid #4d90fe;
+outline: none
+}
+
+.barraEscrita::-ms-clear {
+display: none
+}
+
+.colunameio{
+width: 380px;
+height:50px;
+}
+
+.colunabtn{
+width: 450px;
+height:50px;
+padding-top: 10px;
+}
+
+.PesquisarAzul{
+border: 1px solid #dcdcdc;
+border: 1px solid rgba(0,0,0,.1);
+outline: none;
+width: 120px;
+height:30px;
+font-size: 11px;
+background-color: #4285f4;
+color:white;
+border-radius: 2px;
+}
